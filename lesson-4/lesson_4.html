@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Akulov Ivan  JavaScript 1  Second Lesson  HomeTask</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script src="js4/animation.js" defer></script>
+	<link rel="stylesheet" href="css/style.css">
+    <script src="js4/conversion.js" defer></script>
+    <script src="js4/text.js" defer></script>
+    <script src="js4/gameCode.js" defer></script>
+    <script src="js4/questions.js" defer></script>
+    <script src="js4/millionare.js" defer></script>
+    <link rel="stylesheet" href="css/style4.css">
+    <meta charset="UTF-8">
+    <title>ДЗ4</title>
+</head>
+<body>
+    
+    <div class="header"><h1 class="ml1">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">Домашная работа 4</span>
+          <span class="line line2"></span>
+        </span>
+      </h1>
+      
+        <h9> Студент GeekBrains: Акулов Иван</h9><br>
+        <h9> Преподаватель: Сергей Герасименко</h9>
+        </div>
+        <hr>
+        <details>
+            <summary tabindex="1">01.&nbsp;&nbsp;&nbsp;Задача №1</summary>
+            <h3>Задача №1</h3>
+    <p><b>1. Написать функцию, преобразующую число в объект. Передавая на вход число от 0 до 999, мы должны получить на выходе объект, в котором в соответствующих свойствах описаны единицы, десятки и сотни. Например, для числа 245 мы должны получить следующий объект: {‘единицы’: 5, ‘десятки’: 4, ‘сотни’: 2}. Если число превышает 999, необходимо выдать соответствующее сообщение с помощью console.log и вернуть пустой объект.</b></p>
+    <label>Введите число от 0 до 999 для разбора:</label>
+    <input type="number" class="number" min="0" max="999" step="1">
+    <p class="total"></p>
+    <p><button onclick="conversion()">Выполнить</button></p>
+        </details>
+        <hr>
+        <details>
+            <summary tabindex="1">02.&nbsp;&nbsp;&nbsp;Задача №2</summary>
+            <h3>Задача №2</h3>
+    <p><b>2. Для игры, реализованной на уроке, добавить возможность вывода хода номер n (номер задается пользователем)</b></p>
+    <p class="steps"></p>
+    <p class="gameButton"><button onclick="startGame()">Играть</button></p>
+        </details>
+        <hr>
+	<details>
+        <summary tabindex="1">03.&nbsp;&nbsp;&nbsp;Задача №3</summary>
+	<h3>Задача №3</h3>
+    <p><b>3. *На базе игры, созданной на уроке, реализовать игру «Кто хочет стать миллионером?»</b></p>
+    <div class="gameMil">
+        <div class="txt">Вы правильно ответили на</div>
+        <div class="level">0</div>
+        <div class="txt2">вопросов</div>
+        <button onclick="startMil()">Играть</button>
+    </div>
+    </details>
+    <hr>
+</body>
+</html>
