@@ -1,0 +1,45 @@
+.header{background-color: coral;}
+
+.gameMil {
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(to top, #ddbf3a, #126f3c);
+    background-size: cover;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.level {
+    color: white;
+    font-size: 60px;
+}
+
+.gameMil .txt,
+.txt2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.gameMil button {
+    width: 100px;
+    height: 40px;
+    background: #68a4d6;
+    border: none;
+    color: #12042d;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.gameMil button:hover {
+    background: #f05c17;
+}
+
+.gameMil button:active {
+    background: #fe8f18;
+}
